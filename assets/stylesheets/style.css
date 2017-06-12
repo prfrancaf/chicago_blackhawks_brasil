@@ -1,0 +1,86 @@
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+header{
+  text-align: center;
+}
+#logo{
+  width: 100px;
+}
+.nav_bar{
+	background: black;
+}
+.nav_bar > a{
+  margin-left: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.banner{
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.contato_form{
+  margin-top: 10px;
+  width: 300px;
+}
+.contato_form input{
+  margin-right: 10px;
+  float: right;
+}
+.contato_form input[type=submit]{
+  float: none;
+}
+.cabecalho{
+  top: 0px;
+  width: 800px;
+}
+footer{
+  bottom: 0px;
+  width: 800px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.corpo{
+
+}
+
+
+#galeria {
+  width: 600px;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: #eee;
+}
+#ampliacao {
+  width: 300px;
+  height: 300px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+#ampliacao img.fade{
+  opacity: 0.5;
+}
+#ampliacao img {
+  width: 300px;
+  height: 300px;
+}
+#galeria nav {
+  margin-top: 1em;
+}
+#galeria nav ul{
+  list-style:none;
+}
+#galeria nav ul li{
+  display:inline-block;
+}
+#galeria nav img {
+  text-align: center;
+  width: 80px;
+  height: auto;
+}
+#miniaturas ul li a img{
+  width: 100px;
+  height: 100px;
+}
