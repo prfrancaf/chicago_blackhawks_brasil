@@ -10,12 +10,18 @@ header{
 }
 .nav_bar{
 	background: black;
+  text-align: center;
 }
 .nav_bar > a{
   margin-left: 10px;
   font-size: 24px;
   text-decoration: none;
   color: white;
+  transition: background-color 1s;
+}
+.nav_bar a:hover{
+  background-color: #fff;
+  color: #000;
 }
 .banner{
   margin: 0 auto;
@@ -24,6 +30,9 @@ header{
 .contato_form{
   margin-top: 10px;
   width: 300px;
+}
+.titulo{
+  text-align: center;
 }
 .contato_form input{
   margin-right: 10px;
@@ -42,8 +51,18 @@ footer{
   padding-bottom: 10px;
   margin-top: 10px;
 }
-.corpo{
-
+.home_article{
+  width: 500px;
+  padding-right: 50px;
+}
+.home_aside{
+    padding-left: 50px;
+    width:250px;
+    float: right;
+    display: block;
+}
+.news a{
+  text-decoration: none;
 }
 
 
